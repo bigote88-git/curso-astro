@@ -1,0 +1,14 @@
+---
+import Card from '../components/card.astro';
+import Layout from '../components/layout.astro';
+const myCardsInfo = ['Tarjeta 1', 'Tarjeta 2', 'Tarjeta 3'];
+---
+
+<Layout titlePage="Servicios">
+
+    <h1>Services</h1>    
+    {myCardsInfo.map((title) => <Card title={title} content="loremx10" />)}
+    <Card></Card>
+
+</Layout>
+

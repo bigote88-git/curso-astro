@@ -1,0 +1,27 @@
+---
+const titleAbout = 'About us from variable';
+const titleColorClass = 'danger';
+const devLenguages = ['Java', 'Python', 'Javascript', 'SQL'];
+---
+
+<h1 class={'title-' + titleColorClass}>{titleAbout}</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eius.</p>
+
+<ul class={'title-warning'}>
+    {
+        devLenguages.map(element => <li>{element}</li>)
+    }
+</ul>
+
+<style>
+    .title-info{
+        color: #00aaff;
+    }
+    .title-danger{
+        color: #a7060696;
+    }
+    .title-warning{ 
+        color: hsla(29, 96%, 47%, 0.664);
+    }
+</style>
+

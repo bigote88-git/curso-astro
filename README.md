@@ -9,4 +9,8 @@ Astro Island : Se refiere a un componente de UI Interactivo que se encuentra en 
     pueden existir varias islas y todas se renderizan de forma aislada. Se cargan archivos javascript solo cuando es 
     necesario.
 
+## Ventajas
+Astro nos permite trabajar con codigo dinamico (javascript, componentes, etc..) en desarrollo, pero 
+que al final se transformara en produccion en puro codigo html y css.
+
 
